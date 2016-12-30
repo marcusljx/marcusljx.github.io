@@ -1,0 +1,40 @@
+:root {
+    --mdc-theme-primary: #0f4ebd;
+}
+
+.mdc-ripple-surface.mdc-ripple-upgraded.mdc-button--primary::before,
+.mdc-ripple-surface.mdc-ripple-upgraded.mdc-button--primary::after {
+    background-color: rgba(120, 255, 0, 0.2);
+}
+
+#greeting-form > button {
+    margin-top: 8px;
+}
+
+
+/* CLASSES */
+.name {
+    font: Roboto;
+    text-align: center;
+    color: #0f4ebd;
+}
+
+.resume-section {
+    text-align: center;
+}
+
+.resume-card {
+    text-align: right;
+    display: inline-block;
+    max-width: 600px;
+    margin: 10 auto;
+    /*margin-right: auto;*/
+}
+
+
+/* HEADERS */
+.sectionheader {
+    text-align: center;
+    font: Roboto;
+    color: #0f4ebd;
+}
