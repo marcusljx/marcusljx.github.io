@@ -14,9 +14,11 @@
 
 /* CLASSES */
 .name {
-    font: Roboto;
+    font: Roboto, sans-serif;
+    font-weight: bold;
     text-align: center;
     color: #0f4ebd;
+
 }
 
 .resume-section {
@@ -26,8 +28,11 @@
 .resume-card {
     text-align: right;
     display: inline-block;
+    width: 100%;
     max-width: 600px;
-    margin: 10 auto;
+    height: 100%;
+    min-height: 130px;
+    margin: 4px 1px;
     /*margin-right: auto;*/
 }
 
@@ -35,6 +40,6 @@
 /* HEADERS */
 .sectionheader {
     text-align: center;
-    font: Roboto;
+    font: Roboto, sans-serif;
     color: #0f4ebd;
 }
