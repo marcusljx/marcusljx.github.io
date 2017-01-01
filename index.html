@@ -14,76 +14,114 @@
 <body>
   <main>
     <h1 class="mdc-typography--display1 name">Marcus Low Junxiang</h1>
+      <script src="scripts/card.js"></script>
 
       <section class="resume-section">
           <h2 class="sectionheader">Awards</h2>
 
-          <!-- Google Award Card -->
-          <div class="resume-card">
-              <div class="mdc-card__horizontal-block">
-                  <a href="/img/GooglePrize.jpg">
-                      <img class="mdc-card__media-item mdc-card__media-item--3x" alt="Google Prize Certificate" src="/img/GooglePrize.jpg"/>
-                  </a>
-                  <section class="mdc-card__primary">
-                      <h1 class="mdc-card__title mdc-card__title--large">Google Prize for Honours in Computer Science 2016</h1>
-                      <h2 class="mdc-card__subtitle">University of Adelaide</h2>
-                  </section>
-              </div>
-          </div>
+          <script>
+              createResumeCard(
+                  "Google Prize for Honours in Computer Science 2016",
+                  "University of Adelaide",
+                  "Google Prize Certificate",
+                  "/img/GooglePrize.jpg",
+                  3
+              );
+          </script>
       </section>
 
       <section class="resume-section">
           <h2 class="sectionheader">Education</h2>
 
-          <!-- University Card -->
-          <div class="resume-card">
-              <div class="mdc-card__horizontal-block">
-                  <img class="mdc-card__media-item mdc-card__media-item" alt="University of Adelaide" src="https://lh3.googleusercontent.com/V4bedAbcImxQtbZJdsW7ElIK8mXPD1I6j4OoWuGBEZIwiqtrxP06NaKtKwFH9W-3bz3l67Fp_KxpTQ=w2560-h1440-rw-no"/>
-                  <section class="mdc-card__primary">
-                      <h1 class="mdc-card__title mdc-card__title--large">Honours Bachelor in Computer Science (2nd Upper Honours)</h1>
-                      <h2 class="mdc-card__subtitle">University of Adelaide</h2>
-                  </section>
-              </div>
-          </div>
+          <script>
+              createResumeCard(
+                  "Honours Bachelor in Computer Science (2nd Upper Honours)",
+                  "University of Adelaide",
+                  "University of Adelaide Logo",
+                  "https://studyadelaide.com/wp-content/uploads/2015/07/the-university-of-adelaide-logo-2.png",
+                  1
+              );
+              createResumeCard(
+                  "Student Exchange (Fall 2014)",
+                  "Seoul National University",
+                  "Seoul National University Logo",
+                  "https://upload.wikimedia.org/wikipedia/en/6/6a/Seoul_national_university_emblem.png",
+                  1
+              );
+              createResumeCard(
+                  "Diploma in Integrated Facility Design and Management",
+                  "Temasek Polytechnic",
+                  "Temasek Polytechnic Logo",
+                  "/img/TemasekPolytechnicLogo.jpg",
+                  1
+              );
+          </script>
 
-          <!-- University Card -->
-          <div class="resume-card">
-              <div class="mdc-card__horizontal-block">
-                  <img class="mdc-card__media-item mdc-card__media-item" alt="Seoul National University" src="https://upload.wikimedia.org/wikipedia/en/6/6a/Seoul_national_university_emblem.png"/>
-                  <section class="mdc-card__primary">
-                      <h1 class="mdc-card__title mdc-card__title--large">Student Exchange (Fall 2014)</h1>
-                      <h2 class="mdc-card__subtitle">Seoul National University</h2>
-                  </section>
-              </div>
-          </div>
-
-          <!-- University Card -->
-          <div class="resume-card">
-              <div class="mdc-card__horizontal-block">
-                  <img class="mdc-card__media-item mdc-card__media-item" alt="Temasek Polytechnic" src="/img/TemasekPolytechnicLogo.jpg"/>
-                  <section class="mdc-card__primary">
-                      <h1 class="mdc-card__title mdc-card__title--large">Diploma in Integrated Facility Design and Management</h1>
-                      <h2 class="mdc-card__subtitle">Temasek Polytechnic</h2>
-                  </section>
-              </div>
-          </div>
       </section>
 
-      <section class="resume-section" id="section">
+      <section class="resume-section">
           <h2 class="sectionheader">Employment History</h2>
 
-          <!-- Google Award Card -->
-          <div class="resume-card">
-              <div class="mdc-card__horizontal-block">
-                  <a href="/img/GooglePrize.jpg">
-                      <img class="mdc-card__media-item mdc-card__media-item" alt="Acronis Logo" src="https://i0.wp.com/onhax.me/wp-content/uploads/2016/05/Acronis-True-Image-2017-Logo.png?resize=256%2C256&ssl=1"/>
-                  </a>
-                  <section class="mdc-card__primary">
-                      <h1 class="mdc-card__title mdc-card__title--large">Software Developer in Test</h1>
-                      <h2 class="mdc-card__subtitle">Acronis Asia Research & Development</h2>
-                  </section>
-              </div>
-          </div>
+          <script>
+              createResumeCard(
+                  "Software Developer in Test",
+                  "Acronis Asia Research & Development",
+                  "Acronis Logo",
+                  "https://i0.wp.com/onhax.me/wp-content/uploads/2016/05/Acronis-True-Image-2017-Logo.png?resize=256%2C256&ssl=1",
+                  1
+              );
+              createResumeCard(
+                  "Programming Tutor",
+                  "School of Computer Science, University of Adelaide",
+                  "University of Adelaide Logo",
+                  "https://studyadelaide.com/wp-content/uploads/2015/07/the-university-of-adelaide-logo-2.png",
+                  1
+              );
+              createResumeCard(
+                  "MyUni Assist Ambassador",
+                  "University of Adelaide",
+                  "University of Adelaide Logo",
+                  "https://studyadelaide.com/wp-content/uploads/2015/07/the-university-of-adelaide-logo-2.png",
+                  1
+              );
+              createResumeCard(
+                  "Relief Teacher (Mathematics)",
+                  "Various Secondary Schools (Ministry of Education)",
+                  "Ministry of Education Logo",
+                  "https://www.moe.gov.sg/html/MOE/images/common/moe-ministry-of-education-singapore.png",
+                  1
+              );
+          </script>
+      </section>
+
+      <section class="resume-section">
+          <h2 class="sectionheader">Programming & Markup/Markdown Languages</h2>
+          <script>
+              createItemCard("Python", "https://ee5817f8e2e9a2e34042-3365e7f0719651e5b8d0979bce83c558.ssl.cf5.rackcdn.com/python.png");
+              createItemCard("Golang", "https://www.unixstickers.com/image/cache/data/stickers/golang/Go-brown.sh-600x600.png");
+              createItemCard("", "http://www.brandsoftheworld.com/sites/default/files/styles/logo-thumbnail/public/042014/c_0.png?itok=NGrw5nRV");
+              createItemCard("", "http://therealdanvega.com/wp-content/uploads/2016/01/java.png");
+              createItemCard("HTML", "https://www.w3.org/html/logo/downloads/HTML5_Badge.svg");
+              createItemCard("CSS", "https://juststickers.in/wp-content/uploads/2014/05/CSS3-Mark-Shape-Cut.png");
+              createItemCard("Javascript", "http://spelka.nl/dist/images/logos/javascript.svg");
+              createItemCard("MATLAB", "https://pbs.twimg.com/profile_images/2323205264/h5g3etjnacmazg8oq17z_400x400.jpeg");
+              createItemCard("", "http://cdn.appstorm.net/windows.appstorm.net/files/2012/05/AutoHotkey.jpg");
+              createItemCard("", "https://mathiasfrohlich.gallerycdn.vsassets.io/extensions/mathiasfrohlich/latexcompile/0.7.0/1476472914278/Microsoft.VisualStudio.Services.Icons.Default");
+          </script>
+      </section>
+
+      <section class="resume-section">
+          <h2 class="sectionheader">Platforms & Tools</h2>
+          <script>
+              createItemCard("Linux", "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/2000px-Tux.svg.png");
+              createItemCard("Windows", "https://www.seeklogo.net/wp-content/uploads/2015/11/microsoft-windows-logo-vector-download.jpg");
+              createItemCard("", "http://www.plusqa.com/wp-content/uploads/2015/11/jira_logo.jpg");
+              createItemCard("", "https://www.atlassian.com/docroot/wac/resources/wac/img/social-icons/confluence_logo.jpg");
+              createItemCard("Git", "https://git-scm.com/images/logos/logomark-orange@2x.png");
+              createItemCard("", "http://www.brandsoftheworld.com/sites/default/files/styles/logo-thumbnail/public/0018/6190/brand.gif?itok=s_toWS8B");
+              createItemCard("BitBucket", "https://www.brandeps.com/logo-download/B/Bitbucket-01.png");
+
+          </script>
       </section>
 
   </main>
