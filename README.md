@@ -1,37 +1,48 @@
-## Welcome to GitHub Pages
+# Marcus Low
+_Software Engineer @ Meta_
 
-You can use the [editor on GitHub](https://github.com/marcusljx/marcusljx.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Experience
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### 2022 April - current @ Meta, USA
+> - **`Software Engineer (AI Productivity (DevX)`**
 
-### Markdown
+Built and maintained features for Meta's internal platform for AI modelling, training, and pipeline visualizations.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### 2019 Dec - 2022 April @ Meta, Singapore
+> - **`Software Engineer (Commerce Engineering, Consumer Stores)`**
 
-```markdown
-Syntax highlighted code block
+Built core infrastructure features used to refresh Facebook's Oculus and Portal marketing websites, including the revamp of the website in line with the release of the Oculus Quest 2 headset. Built code-less systems for creatives and marketing departments to assemble and build modern web experiences, and also built tools for code analysis and code generation that significantly improved develop-to-ship times within the various teams at Facebook. 
 
-# Header 1
-## Header 2
-### Header 3
+### 2017 Jan - 2019 Dec @ Grab, Singapore
+> - **`Lead Software Engineer (Developer Experience - Automation Platform)`**
+> - **`Software Engineer (Developer Experience - Automation Platform)`**
 
-- Bulleted
-- List
+Spearheaded development of a full tech stack for automated integration and end-to-end testing of Grab's microservice architecture. Was promoted within 6 months to a technical leadership role in test strategy and test stack development.
 
-1. Numbered
-2. List
+Led a sub-team of 6 in the development of in-house testing tools, libraries, backend services, and necessary infrastructure for testing microservices at scale, whilst also contributing as an active developer. Designed and implemented the tools and processes for functional, integration, and performance testing of Grab's backend microservices. Also served as interim team lead for the larger team of 13 from 2018.
 
-**Bold** and _Italic_ and `Code` text
+### 2016 Mar - 2016 Oct @ Acronis Asia R&D, Singapore
+> - **`Software Engineer in Test`**
 
-[Link](url) and ![Image](src)
+Developed and maintained product testing frameworks and environments. Roles and responsibilities included testing architecture development for new product directions, as well as mentoring multiple teams of interns
+
+## Languages
+In order of proficiency/familliarity
+```
+go
+python
+javascript
+Dart
+Hack (hacklang)
+Java
+C/C++
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/marcusljx/marcusljx.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## Frameworks
+```
+Protocol Buffers
+Open API (formerly called Swagger)
+Kubernetes/KNative
+React
+Flutter
+```
